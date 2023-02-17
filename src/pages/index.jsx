@@ -46,7 +46,7 @@ export default function Home() {
         <meta property="og:type" content="App" />
         <meta
           property="og:image"
-          content="./public/img/Fdcc-Advice-Generator-App.jpg"
+          content="https://raw.githubusercontent.com/FrancescoDeCaroCarella/Advice-Generator-App/main/public/Fdcc-Advice-Generator-App.jpg"
         />
 
         <link rel="icon" href="/favicon.ico" />
@@ -59,7 +59,7 @@ export default function Home() {
           rel="prefetch"
           as="image"
           type="image/jpeg"
-          href="./public/img/Fdcc-Advice-Generator-App.jpg"
+          href="https://raw.githubusercontent.com/FrancescoDeCaroCarella/Advice-Generator-App/main/public/Fdcc-Advice-Generator-App.jpg"
         ></link>
         <link
           rel="stylesheet"
