@@ -1,0 +1,17 @@
+//Primary Color
+$light-cyan: rgb(205, 225, 235);
+$neon-green: rgb(85, 255, 170);
+
+//Neutral Color
+$grayish-blue: rgb(80, 95, 115);
+$dark-grayish-blue: rgb(50, 60, 75);
+$dark-blue: rgb(30, 40, 50);
+
+//Font
+$quote-font: 26px;
+$family-font: "Manrope", sans-serif;
+$weights-font: 800;
+
+//Responsive
+@import '~include-media/dist/include-media';
+$breakpoints: (mobile: 568px, tablet: 767px, desktop: 992px);

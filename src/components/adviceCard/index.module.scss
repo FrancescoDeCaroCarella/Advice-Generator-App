@@ -1,0 +1,89 @@
+@import "../../styles/variables.scss";
+
+.AdviceCard {
+  align-items: center;
+  background-color: $dark-grayish-blue;
+  border-radius: 20px;
+  box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: space-between;
+  max-width: 550px;
+  min-width: 350px;
+  padding: 20px;
+  position: relative;
+  transition: max-height 0.5s;
+
+  div:first-child {
+    padding: 25px;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: translateX(-50%) rotate(0);
+    }
+
+    50% {
+      transform: translateX(-50%) rotate(180deg);
+    }
+
+    100% {
+      transform: translateX(-50%) rotate(360deg);
+    }
+  }
+
+  &.loading {
+    max-height: 142.5px;
+
+    button {
+      animation: rotate 1s both infinite;
+    }
+  }
+
+  .title {
+    color: $neon-green;
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin: 5px 0px 25px 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .advice {
+    color: $light-cyan;
+    font-size: $quote-font;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .divider {
+    height: auto;
+    padding: 25px 25px 40px;
+    width: 100%;
+  }
+
+  .button {
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    background-color: $neon-green;
+    border-radius: 50%;
+    border: none;
+    bottom: -35px;
+    cursor: pointer;
+    height: 64px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 64px;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 1px 1px 30px $neon-green;
+    }
+
+    &:active {
+      box-shadow: 1px 1px 30px transparent;
+    }
+  }
+}

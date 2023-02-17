@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.Header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+
+  h1 {
+    animation: ShadowEffect 2s ease infinite;
+    color: $neon-green;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    text-shadow: 1px 1px 10px $neon-green;
+  }
+  @keyframes ShadowEffect {
+    30% {
+      text-shadow: 1px 1px 30px $neon-green;
+    }
+  }
+}

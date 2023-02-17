@@ -1,0 +1,28 @@
+@import "@/styles/variables.scss";
+
+.Footer {
+  align-items: center;
+  color: $neon-green;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  gap: 5px;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  text-align: center;
+  text-shadow: 1px 1px 15px $neon-green;
+}
+
+.navSocial a {
+  border-radius: 50%;
+  color: $neon-green;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navSocial a:hover {
+  transition: 0.5s;
+  transform: rotate(360deg);
+}
