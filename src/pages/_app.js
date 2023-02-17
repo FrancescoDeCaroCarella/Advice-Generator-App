@@ -1,6 +1,6 @@
 import '@/styles/globals.scss'
 
-import Mainlayout from "@/layouts/mainlayout";
+import Mainlayout from "@/layouts/mainLayout";
 
 export default function App({ Component, pageProps }) {
   return (
