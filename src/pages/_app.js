@@ -1,11 +1,11 @@
 import '@/styles/globals.scss'
 
-import Mainlayout from "@/layouts/mainLayout";
+import MainLayout from "@/layouts/mainLayout";
 
 export default function App({ Component, pageProps }) {
   return (
-    <Mainlayout>
+    <MainLayout>
       <Component {...pageProps} />
-    </Mainlayout>
+    </MainLayout>
   );
 }

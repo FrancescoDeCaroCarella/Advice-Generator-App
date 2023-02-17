@@ -2,7 +2,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import styles from "./index.module.scss";
 
-const Mainlayout = ({ children }) => {
+const MainLayout = ({ children }) => {
   return (
     <div className={styles.MainLayout}>
       <Header />
@@ -12,5 +12,5 @@ const Mainlayout = ({ children }) => {
   );
 };
 
-export default Mainlayout;
+export default MainLayout;
 
