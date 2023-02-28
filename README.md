@@ -24,4 +24,4 @@ More information [Advice Generator App Challenge](https://www.frontendmentor.io/
 - [Next.js](https://nextjs.org/) as React framework.
 
 ### Author 🧑‍🦰
-- [Francesco De Caro Carella](https://francescodecarocarella.it/), Front-End Developer and Graphic Designer. You can find me on [Linkedin](https://it.linkedin.com/in/francescodecarocarella), [Instagram](https://www.instagram.com/fdcc_webdev/) and [Github](https://github.com/FrancescoDeCaroCarella).
+- [Francesco De Caro Carella](https://francescodecarocarella.it/), Web Developer Front-End and Graphic Designer. You can find me on [Linkedin](https://it.linkedin.com/in/francescodecarocarella), [Instagram](https://www.instagram.com/fdcc_webdev/) and [Github](https://github.com/FrancescoDeCaroCarella).
